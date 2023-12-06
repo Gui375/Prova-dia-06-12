@@ -1,0 +1,26 @@
+Questão teórica 1 (0,5 ponto)
+Em sala estudamos e aprofundamos nos conceitos de classe anêmica e classe rica, cite uma 
+situação onde cada uma pode ser utilizada e descreva por que ela faz sentido nesses cenários
+
+R= A Responsabilidade da classe anemica é se comunicar com o "mundo" externo, sem abrir portas para o codigo interno.
+Ela serve para mapear os dados e apresentar para o mundo externo. Já a classe rica, serve para armazernar os métodos e as
+propiedades dentro do código 
+
+Questão teórica 2 (0,5 ponto)
+Um conceito estudamos muito em sala e exemplificamos foi o princípio do SOLID de 
+responsabilidade única, descreva como ele é importante e dê um exemplo prático (pode usar 
+os códigos que fizemos em aula , prova ou exercícios para descrever seu raciocínio).
+
+R= A responsabilidade unica é dividir as responsabilidades do codigo, por exemplo a camada de dados que é responsavel pela 
+persistencia dos dados, independente do banco ela será a responsavel. Ou a de Api, que é responsavel pela comunicação com o Mundo externo
+Ou seja, onde fica as controllers e as views
+
+Questão teórica 3 (0,5 ponto)
+Em sala de aula aprendemos técnicas de validação de dados e suas importâncias, descreva 
+exemplos de validação de dados , por quê elas são importantes e devemos preocupar com elas. 
+Cite pelo menos 3 motivos.
+
+R= A validação dos dados é exencial para a solidez da informação, ou seja, o quão confiavel ela é, sendo assim é um GRANDE motivo,
+a validação dos dados. Outro motivo é a segurança das informações, ou seja, o quão protegidas internamente está as informações.
+Funcionamento do código, o código precisa receber tipos de dados especificos para cada situação, ou seja, uma variavel do tipo float, tem que, obrigatoriamente
+receber dados do tipo float
